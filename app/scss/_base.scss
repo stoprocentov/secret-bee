@@ -1,0 +1,49 @@
+:root {
+	--gutter: 30px;
+	--light-grey: #343645;
+	--base-grey: #2B2C3A;
+	--green: #24CB8D;
+	--bright-green: #1d9d73;
+	--white: #ffffff;
+	--black: #000000;
+	--violet: #6B69FA;
+}
+
+
+html {
+	font-family: 'Jost', sans-serif;
+	color: var(--white);
+	font-size: 14px;
+}
+
+body {
+	margin: 0;
+	background-color: var(--base-grey);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: var(--white);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--white);
+
+}
+
+
+.row {
+	margin: 0 calc(var(--gutter) / -2);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	margin: calc(var(--gutter) / 2);
+	box-sizing: border-box;
+}
